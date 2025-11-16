@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Needed for GitHub Pages: generate a fully static site in `out/`
+  // 👇 add this
   output: "export",
 
   allowedDevOrigins: ["*.preview.same-app.com"],
-
   images: {
-    // GitHub Pages + static export => no built-in image optimization
     unoptimized: true,
     domains: [
       "source.unsplash.com",
