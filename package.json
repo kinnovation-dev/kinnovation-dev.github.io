@@ -1,13 +1,13 @@
 {
-  "name": "nextjs-shadcn",
+  "name": "kinnovation-dev-site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev -H 0.0.0.0 --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "bunx tsc --noEmit && next lint",
-    "format": "bunx biome format --write"
+    "lint": "npx tsc --noEmit && next lint",
+    "format": "npx @biomejs/biome format --write ."
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",
